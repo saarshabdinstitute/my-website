@@ -189,6 +189,19 @@ span.carousel-control-next-icon {
 /*End Marquee*/
 
 /*Start About */
+
+.highlight marquee {
+    font-size: 50px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.left-line {
+    border-left: solid 2px #EF543E;
+    box-shadow: 2px 5px 6px #e7e7e7;
+    padding: 15px;
+}
 .about-part{
     margin: 0;
     padding: 50px 0;
@@ -213,11 +226,12 @@ p.sub-head {
     padding: 5px 10px;
 }
 .key-feature {
-    margin-top: 40px;
+    margin-top: 40PX;
     text-align: center;
     border: solid 1px #ffaa3229;
     padding: 20px 10px;
     box-shadow: 2px 2px 5px #e6e6e6;
+    margin-bottom: 50px;
 }
 .key-feature h4 {
     font-size: 21px;
@@ -821,6 +835,18 @@ img.about-img {
 }
 
 @media(max-width: 767px){
+    .key-feature {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+    img.new-icse {
+    border: solid 1px #b7b7b7;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+    .highlight marquee {
+    font-size: 25px;
+}
     ul.ft-list .top-contact ul {
     text-align: left;
 }
